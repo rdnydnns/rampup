@@ -1,0 +1,51 @@
+// bower:scss
+@import 'bower_components/normalize-scss/normalize';
+// endbower
+
+// body,
+// html {
+//   height: 100%;
+//   width: 100%;
+// }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  font-family: 'open sans', Helvetica, Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+header,
+footer {
+  padding: 1em;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+textarea {
+  border: 0;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 1.5em;
+  padding: 1em 10%;
+  height: 100vh;
+  width: 100%;
+  resize: vertical;
+  display: block;
+
+  &:focus {
+    outline: none;
+  };
+}
